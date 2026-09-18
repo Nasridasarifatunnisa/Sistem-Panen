@@ -1,0 +1,5 @@
+def hitung_diskon(total, persen_diskon):
+    """Menghitung total harga setelah dikurangi diskon (dalam persen)."""
+    nilai_diskon = total * (persen_diskon / 100)
+    total_setelah_diskon = total - nilai_diskon
+    return total_setelah_diskon
